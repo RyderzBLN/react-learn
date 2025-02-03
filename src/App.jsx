@@ -6,7 +6,15 @@ function App() {
 
   return (
     <>
-    <h1>Counteer</h1>
+    <header>
+<section className='hero'>
+  <div><h1>Hallo</h1></div>
+  <div><h2>WELT</h2></div>
+  <div><button>Drück hier</button></div>
+</section>
+    </header>
+
+
     </>
   )
 }
