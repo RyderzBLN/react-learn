@@ -22,7 +22,7 @@ fs.writeFileSync(
 import "./${componentName}.style.css";
 
 function ${componentName}() {
-  return <div className={styles.container}>${componentName} Component</div>;
+  return <div className="${componentName}">${componentName} Component</div>;
 }
 
 export default ${componentName};

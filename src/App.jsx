@@ -1,5 +1,7 @@
 import "./App.css";
-import Name from "./components/NAME/NAME";
+import React from "react";
+
+
 
 export default function App() {
   return (
@@ -15,7 +17,7 @@ export default function App() {
           <div>
             <button>Drück hier</button>
           </div>
-          <Name />
+
         </section>
       </header>
     </>

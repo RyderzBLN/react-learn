@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",        // Stellt den Basis-Pfad auf den src-Ordner ein
+    "checkJs": true,           // Aktiviert die Überprüfung von JavaScript
+    "jsx": "react"             // Stellt JSX-Unterstützung für React ein
+  },
+  "include": [
+    "src/**/*"                 // Bezieht alle Dateien im src-Ordner ein
+  ]
+}
