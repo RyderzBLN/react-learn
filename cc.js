@@ -11,7 +11,9 @@ if (!rawComponentName) {
   process.exit(1);
 }
 
-const componentName = rawComponentName.charAt(0).toUpperCase() + rawComponentName.slice(1).toLowerCase();
+const componentName =
+  rawComponentName.charAt(0).toUpperCase() +
+  rawComponentName.slice(1).toLowerCase();
 
 const componentDir = path.join(__dirname, "src", "components", componentName);
 fs.mkdirSync(componentDir, { recursive: true });
@@ -34,11 +36,6 @@ fs.writeFileSync(
   `.${componentName} {
   /* Add styles here */
 }`
-);
-
-fs.writeFileSync(
-  path.join(componentDir, `${componentName}.js`),
-  `export { default } from "./${componentName}";`
 );
 
 console.log(`✅ Component ${componentName} created successfully!`);

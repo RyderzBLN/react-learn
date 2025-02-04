@@ -1,3 +1,4 @@
+import Test from "components/Test/Test.jsx";
 import "./App.css";
 import React from "react";
 
@@ -17,7 +18,7 @@ export default function App() {
           <div>
             <button>Drück hier</button>
           </div>
-
+        <Test />
         </section>
       </header>
     </>
