@@ -1,4 +1,4 @@
-import Test from "components/Test/Test.jsx";
+import Button from "./components/Button/Button.jsx";
 import "./App.css";
 import React from "react";
 
@@ -16,9 +16,9 @@ export default function App() {
             <h2>WELT</h2>
           </div>
           <div>
-            <button>Drück hier</button>
           </div>
-        <Test />
+          <Button text={"EINS"} style={"blue"} />
+          <Button text="ZWEI" style="red" />
         </section>
       </header>
     </>
