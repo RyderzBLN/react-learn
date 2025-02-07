@@ -1,13 +1,15 @@
 import Button from "./components/Button/Button.jsx";
 import "./App.css";
 import React from "react";
+import Count from "./components/Count/Count.jsx";
 
 
 
 export default function App() {
+
   return (
     <>
-      <header>
+      <header style={{display: "none"}}>
         <section className="hero">
           <div>
             <h1>Hallo</h1>
@@ -17,10 +19,12 @@ export default function App() {
           </div>
           <div>
           </div>
-          <Button text={"EINS"} style={"blue"} />
-          <Button text="ZWEI" style="red" />
+
         </section>
       </header>
+      <main>
+        <Count />
+      </main>
     </>
   );
 }
